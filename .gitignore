@@ -1,0 +1,6 @@
+**/__pycache__/
+/Dataset/frames
+/Dataset/labels
+/.ipynb_checkpoints
+vgg-full.h5
+.DS_Store
