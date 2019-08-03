@@ -1,0 +1,7 @@
+1. Simple model + batchnorm = 0.8 f1 score, complex vgg net like architecture is not giving good results (with and without dropout). 0.8 was achieved after upsampling to make number of positive frames = numer of negative. 
+2. Using relu after batchnorm is worse (0.8 before versus 0.7 after)
+3. Not using batchnorm destroys f1 score to 0. Seems like network is not able to learn anything without it.
+
+Things to try:
+1. Rename two frames before transition also to 1s.
+2. Use ResNet pertained features as inputs
