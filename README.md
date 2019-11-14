@@ -21,3 +21,7 @@ Dataset Available at: https://goo.gl/ckZTTb
 ## Evaluation Metric:
 
 Metric used for evaluation would be F1-score. Also sometimes multiple consecutive frames will have the same content written on it, so the labels and detections can have a difference of 2 frames but still capture same information. To deal with this, if nth frame was labelled as key, the detection will be considered valid for any frame [n-2, n+2].
+
+## Implementation and Results:
+
+Refer the [report](Report.pdf) for details on implementations, experiments and results.
